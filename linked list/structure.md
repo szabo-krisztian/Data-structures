@@ -33,7 +33,7 @@ void Insert(int x)
 {
     struct Node* temp = (Node*)malloc(sizeof(Node));
     temp->data = x;
-    //temp->next = head;
+    temp->next = head;
     head = temp;
 }
 ```
